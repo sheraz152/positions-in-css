@@ -1,0 +1,42 @@
+body{
+    background-color:#689943 ;
+    height: 100%;
+    width: 100%;
+}
+.box{
+    background-color: #C75267;
+    height: 100px;
+    width: 100px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 100px;
+}
+.container{
+    background-color: #3B2A2E;
+    height: 100vh;
+    width: 100vh;
+    color: aliceblue;
+    
+}
+#absolute{
+    position: absolute;
+    top: 1000px;
+    right: 40px;
+
+}
+#relative{
+position: absolute;
+right: 5000;
+top: 500px;
+}
+#fix{
+    position: fixed;
+    right: px;
+    top:0px;
+}
+img{
+    background-color: orange;
+    height: 200px;
+    width: 100vh;
+    
+}
